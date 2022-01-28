@@ -1,0 +1,21 @@
+body {
+  background-color: #81b29a;
+}
+
+.blue {
+  width: 20vw; 
+height:20vh; 
+background-color: #3d405b;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.margin{
+margin:0;
+padding:0;
+}
